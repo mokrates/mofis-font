@@ -1,14 +1,16 @@
-[buildPlans.mofis-0_2]
-family = "Mofis 0.2"
+[buildPlans.mofis-0_3]
+family = "Mofis 0.3"
 spacing = "fontconfig-mono"
 serifs = "sans"
 no-cv-ss = false
 export-glyph-names = true
 
-[buildPlans.mofis-0_2.variants]
+[buildPlans.mofis-0_3.variants]
 inherits = "ss03"
 
-[buildPlans.mofis-0_2.variants.design]
+[buildPlans.mofis-0_3.variants.design]
+capital-j = "descending-serifed"
+#capital-j = "descending-serifless"
 capital-q = "crossing"
 # f = "flat-hook-extended"
 f = "flat-hook-extended-crossbar-at-x-height"
