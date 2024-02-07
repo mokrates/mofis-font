@@ -3,6 +3,10 @@ A Iosevka configuration
 
 ![image](https://github.com/mokrates/mofis-font/blob/main/mofis.png?raw=true)
 
+## Download
+
+See the github releases: https://github.com/mokrates/mofis-font/releases
+
 ## how to build
 
 Clone the Iosevka git:
