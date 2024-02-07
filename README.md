@@ -7,7 +7,7 @@ A Iosevka configuration
 
 Clone the Iosevka git:
 
-    git clone https://github.com/be5invis/Iosevka/
+	git clone --depth 1 https://github.com/be5invis/Iosevka.git 
 
 get `private-build-plans.toml` and `build.sh` from this git and copy
 it into the `Iosevka` directory and run `build.sh`.
@@ -15,6 +15,9 @@ it into the `Iosevka` directory and run `build.sh`.
 	git clone https://github.com/mokrates/mofis-font
 	cp mofis-font/private-build-plans.toml mofis-font/build.sh Iosevka/
 	cd Iosevka
+
+	# if you don't have installed verda
+	npm install verda
 	bash build.sh
 	
 Your font will be
@@ -24,9 +27,15 @@ built into `Iosevka/dist`. Copy the resulting directory into `~/.fonts`.
 
 There are many variants generated. Usually I use the
 
-    Mofis 0.1 Extended 
+    Mofis 0.4 Extended 
 	
 variant.
+
+### Ligatures
+
+If you want a font with programming ligatures, the font currently for you is
+
+	Mofis 0.3 Extended
 
 ## License
 

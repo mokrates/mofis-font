@@ -1,14 +1,16 @@
-[buildPlans.mofis-0_3]
-family = "Mofis 0.3"
+[buildPlans.mofis-0_4]
+family = "Mofis 0.4"
 spacing = "fontconfig-mono"
 serifs = "sans"
 no-cv-ss = false
-export-glyph-names = true
+exportGlyphNames = true
 
-[buildPlans.mofis-0_3.variants]
+noLigation = true
+
+[buildPlans.mofis-0_4.variants]
 inherits = "ss03"
 
-[buildPlans.mofis-0_3.variants.design]
+[buildPlans.mofis-0_4.variants.design]
 capital-j = "descending-serifed"
 #capital-j = "descending-serifless"
 capital-q = "crossing"
@@ -26,7 +28,9 @@ zero = "oval-tall-slashed"
 two = "straight-neck"
 three = "flat-top"
 four = "closed"
-five = "oblique-upper-left-bar"
+# five = "oblique-upper-left-bar"   # (v0.4): this seems to have been renamed into
+five = "oblique-arched"
+
 six = "open-contour"
 # seven = "straight-serifed"
 eight = "two-circles"
@@ -36,3 +40,4 @@ question = "smooth"
 
 
 digit-form = 'old-style'
+
