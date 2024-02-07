@@ -1,7 +1,7 @@
 # mofis-font
 A Iosevka configuration
 
-![image](https://raw.githubusercontent.com/mokrates/mofis-font/v0.4/mofis.png)
+![image](https://github.com/mokrates/mofis-font/blob/main/mofis.png?raw=true)
 
 ## how to build
 
