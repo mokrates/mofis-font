@@ -1,1 +1,1 @@
-npm run build -- --jCmd=4 contents::mofis-0_3nl
+npm run build -- --jCmd=4 contents::mofis-0_4
