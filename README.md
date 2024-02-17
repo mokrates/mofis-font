@@ -40,6 +40,25 @@ variant.
 If you want a font with programming ligatures, the font currently for you is
 
 	Mofis 0.3 Extended
+	
+## Using the font
+
+### Thunderbird
+
+Thunderbird offers a font chooser which doesn't allow you to choose
+`Mofis 0.4 Extended`, but only `Mofis 0.4` (or whatever version you
+try to use). Choose this, and open the `about:config` ("Menu" ->
+"Settings" -> scroll to the bottom and choose "edit Settings"). Search
+for "font" and look for where `Mofis 0.4` is selected. These are just
+string settings, so you can amend it to "Mofis 0.4 Extended"
+
+### Emacs
+
+`~/.emacs`
+```
+(add-to-list 'default-frame-alist
+	     '(font . "Mofis 0.4 Extended-11"))
+```
 
 ## License
 
