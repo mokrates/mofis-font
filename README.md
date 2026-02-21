@@ -1,3 +1,6 @@
+> [!IMPORTANT]
+> this repository moved to codeberg.org/mokrates/mofis-font
+
 # mofis-font
 A Iosevka configuration
 
